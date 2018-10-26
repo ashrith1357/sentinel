@@ -22,6 +22,6 @@ Sentinel Policies for Terraform are defined using the Sentinel policy language. 
 
    - tfplan - This provides access to a Terraform plan, the file created as a result of terraform plan. The plan represents the changes that Terraform needs to make to infrastructure to reach the desired state represented by the configuration.
    - tfconfig - This provides access to a Terraform configuration, the set of "tf" files that are used to describe the desired infrastructure state.
-    - tfstate - This provides access to the Terraform state, the file used by Terraform to map real world resources to your configuration.
+   - tfstate - This provides access to the Terraform state, the file used by Terraform to map real world resources to your configuration.
 
 
