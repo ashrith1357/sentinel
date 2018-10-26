@@ -9,4 +9,4 @@ Sentinel, the HashiCorp framework for policy as code management, is built to be 
 
 To learn how to use Sentinel and begin writing policies with the Sentinel language, see [the Sentinel documentation](https://docs.hashicorp.com/sentinel/writing/)
 
-You can also use the tfe_sentinel_policy resource from the Terraform Enterprise provider to upload a policy using Terraform itself.
+You can also use the [tfe_sentinel_policy](https://www.terraform.io/docs/providers/tfe/r/sentinel_policy.html) resource from the [Terraform Enterprise provider](https://www.terraform.io/docs/providers/tfe/) to upload a policy using Terraform itself.
