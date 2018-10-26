@@ -11,9 +11,9 @@ Here is the Sentinel documentation aboutwriting policies with the Sentinel langu
 
 # Sentinel and Policy as Code
 
--	Language. All Sentinel policies are written using the [Sentinel language](https://docs.hashicorp.com/sentinel/concepts/language). This language is made to inputted directly to text files. As an additional benefit, all Sentinel-enabled applications share the same policy language.
--	Development. Sentinel provides a [CLI](https://docs.hashicorp.com/sentinel/commands/) for development and testing. This local CLI can be used to verify policies before deploying them to a system.
--	Testing. Sentinel provides a [test framework](https://docs.hashicorp.com/sentinel/commands/test)  designed specifically for automation. This allows developers and CI systems to further verify policies.
+-	**Language.** All Sentinel policies are written using the [Sentinel language](https://docs.hashicorp.com/sentinel/concepts/language). This language is made to inputted directly to text files. As an additional benefit, all Sentinel-enabled applications share the same policy language.
+-	**Development.** Sentinel provides a [CLI](https://docs.hashicorp.com/sentinel/commands/) for development and testing. This local CLI can be used to verify policies before deploying them to a system.
+-	**Testing.** Sentinel provides a [test framework](https://docs.hashicorp.com/sentinel/commands/test)  designed specifically for automation. This allows developers and CI systems to further verify policies.
 
 
 # Defining Policies
