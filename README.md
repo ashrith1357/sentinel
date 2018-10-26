@@ -7,4 +7,6 @@ Sentinel is an embeddable policy as code framework to enable fine-grained, logic
 
 Sentinel, the HashiCorp framework for policy as code management, is built to be embedded in existing software to enable fine-grained, logic-based policy decisions. A policy describes under what circumstances certain behaviors are allowed. Sentinel is embedded into the Enterprise version of each of the HashiCorp products and was first introduced at HashiConf. Sentinel basics are covered in: [Terraform Enterprise: Applying policy as code to infrastructure provisioning](https://www.hashicorp.com/blog/sentinel-and-terraform-enterprise-policy-as-code)
 
+To learn how to use Sentinel and begin writing policies with the Sentinel language, see [the Sentinel documentation](https://docs.hashicorp.com/sentinel/writing/)
 
+You can also use the tfe_sentinel_policy resource from the Terraform Enterprise provider to upload a policy using Terraform itself.
