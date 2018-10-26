@@ -14,3 +14,10 @@ Here is the Sentinel documentation aboutwriting policies with the Sentinel langu
 Imports enable Sentinel to access external data and functions.
 
 Sentinel ships with a set of [standard imports](https://docs.hashicorp.com/sentinel/imports/). Standard imports are available by default to every Sentinel policy
+
+To use an import, use the import statement. Then, access data and functions on the import using the import name followed by a period and the field you want to access. The example below checks whether the request path starts with a prefix. Assume that request_path is available.
+
+import "strings"
+
+main = rule { strings.has_prefix(request_path, "/admin") }
+
