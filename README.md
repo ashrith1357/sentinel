@@ -11,14 +11,10 @@ Here is the Sentinel documentation aboutwriting policies with the Sentinel langu
 
 # Sentinel and Policy as Code
 
-Sentinel fully embraces policy as code in a number of ways:
+-	Language. All Sentinel policies are written using the Sentinel language. This language is made to inputted directly to text files. As an additional benefit, all Sentinel-enabled applications share the same policy language.
+-	Development. Sentinel provides a CLI for development and testing. This local CLI can be used to verify policies before deploying them to a system.
+-	Testing. Sentinel provides a test framework designed specifically for automation. This allows developers and CI systems to further verify policies.
 
-
-    - Language. All Sentinel policies are written using the Sentinel language. This language is made to inputted directly to text files. As an additional benefit, all Sentinel-enabled applications share the same policy language.
-
-    - Development. Sentinel provides a CLI for development and testing. This local CLI can be used to verify policies before deploying them to a system.
-
-    - Testing. Sentinel provides a test framework designed specifically for automation. This allows developers and CI systems to further verify policies.
 
 # Imports
 
